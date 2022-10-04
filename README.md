@@ -1,10 +1,10 @@
-## NetworkMonitoring
+# NetworkMonitoring
 i consider this a 360 display of my cloud skills; creating the needed infrastructure using terraform, configuring on the portal , implementing network security features and logging to a workspace to query using kql
 
-#Project Aim
+# Project Aim
 Sharpenning my terraform skills on how to quickly deploy resources taking up less time. impleementing network security features; Network security groups, Application secuirty groups, Creating inbound and outbound rules, working with log analytics to monitor and log activity so that i can run kql queries on daat collected. 
 
-#Resources used
+# Resources used
   ·	A Resource Group
   ·	A Virtual Network
   ·	A Subnet
@@ -15,7 +15,7 @@ Sharpenning my terraform skills on how to quickly deploy resources taking up les
   ·	An analytics Workspace to log data collected.
   
   
-#Walk-Through 
+# Walk-Through 
 -	I started by using Terraform to provision my infrastructure. I wrote a script that created the Resource group, virtual network, subnets and a network security group.
 
 See attached code: Infra.tf
