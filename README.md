@@ -18,7 +18,7 @@ Sharpenning my terraform skills on how to quickly deploy resources taking up les
 # Walk-Through 
 -	I started by using Terraform to provision my infrastructure. I wrote a script that created the Resource group, virtual network, subnets and a network security group.
 
-See attached code: Infra.tf
+  See attached code: Infra.tf
 -	Once I confirmed the resources were created on the portal, I continued to create the virtual machines. I created two virtual machines that are in running status: one to act as web server and the other to act as the mgmt server.
 See image: Created 2 Virtual Machines to act as the Web Server and the Mgmt Server.jpg
 -	I then created the Application Security groups that would be connected to the respective virtual machines network interfaces.
